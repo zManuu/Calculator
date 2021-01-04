@@ -1,0 +1,25 @@
+#inputField {
+  background: #5AA3E3;
+  color: #E6E6E6;
+  border-style: groove;
+  font-size: 30px;
+  padding: 3% 10% 3% 10%;
+}
+
+.button {
+  font-size: 70px;
+  background: #5AA3E3;
+  color: #E6E6E6;
+  border: none;
+  padding: 10% 10% 10% 10%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#outputField {
+  background: #5AA3E3;
+  color: #E6E6E6;
+  border-style: groove;
+  font-size: 30px;
+  padding: 3% 10% 3% 10%;
+}

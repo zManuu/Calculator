@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/phone.css">
+    <link rel="stylesheet" media="(min-width:500px)" href="css/pc.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>JavaScript - Calculator</title>
+  </head>
+  <body>
+    <script src="script.js" charset="utf-8"></script>
+    <div class="main-content">
+      <input type="text" value="Input" id="inputField" autocomplete="off" autofocus>
+      <div id="buttons">
+        <button id="br" class="button" onclick="addChar(this)">(</button>
+        <button class="button" onclick="addChar(this)">)</button>
+        <button class="button" onclick="removeChar()">←</button>
+        <button class="button" onclick="clearInput()">⇐</button>
+        <br>
+        <button id="b1" class="button" onclick="addChar(this)">1</button>
+        <button class="button" onclick="addChar(this)">2</button>
+        <button class="button" onclick="addChar(this)">3</button>
+        <button class="button" onclick="addChar(this)">+</button>
+        <br>
+        <button id="b4" class="button" onclick="addChar(this)">4</button>
+        <button class="button" onclick="addChar(this)">5</button>
+        <button class="button" onclick="addChar(this)">6</button>
+        <button class="button" onclick="addChar(this)">-</button>
+        <br>
+        <button id="b7" class="button" onclick="addChar(this)">7</button>
+        <button class="button" onclick="addChar(this)">8</button>
+        <button class="button" onclick="addChar(this)">9</button>
+        <button class="button" onclick="addChar(this)">×</button>
+        <br>
+        <button class="button" id="bk" onclick="addChar(this)">,</button>
+        <button class="button" onclick="addChar(this)">0</button>
+        <button class="button" onclick="calculate()">=</button>
+        <button class="button" onclick="addChar(this)">÷</button>
+      </div>
+      <input readonly id="outputField" value="0"  autocomplete="off" autofocus size="10px">
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
