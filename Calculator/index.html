@@ -9,40 +9,41 @@
     <title>JavaScript - Calculator</title>
   </head>
   <body>
-    <script src="script.js" charset="utf-8"></script>
     <div class="main-content">
       <input type="text" value="Input" id="inputField" autocomplete="off"
-      autofocus onkeyup="keyEvent(event)">
+      autofocus onkeyup="keyEvent(event)" class="themeChanger">
       <div id="buttons">
-        <button class="button" onclick="addChar(this)">(</button>
-        <button class="button" onclick="addChar(this)">)</button>
-        <button class="button" onclick="removeChar()">←</button>
-        <button class="button" onclick="clearInput()">⇐</button>
+        <button class="button themeChanger" onclick="addChar(this)">(</button>
+        <button class="button themeChanger" onclick="addChar(this)">)</button>
+        <button class="button themeChanger" onclick="removeChar()">←</button>
+        <button class="button themeChanger" onclick="clearInput()">⇐</button>
         <br class="ba">
-        <button class="button" onclick="addChar(this)">1</button>
-        <button class="button" onclick="addChar(this)">2</button>
-        <button class="button" onclick="addChar(this)">3</button>
-        <button class="button" onclick="addChar(this)">+</button>
+        <button class="button themeChanger" onclick="addChar(this)">1</button>
+        <button class="button themeChanger" onclick="addChar(this)">2</button>
+        <button class="button themeChanger" onclick="addChar(this)">3</button>
+        <button class="button themeChanger" onclick="addChar(this)">+</button>
         <br class="ba">
-        <button class="button" onclick="addChar(this)">4</button>
-        <button class="button" onclick="addChar(this)">5</button>
-        <button class="button" onclick="addChar(this)">6</button>
+        <button class="button themeChanger" onclick="addChar(this)">4</button>
+        <button class="button themeChanger" onclick="addChar(this)">5</button>
+        <button class="button themeChanger" onclick="addChar(this)">6</button>
         <br class="brPC">
-        <button class="button" onclick="addChar(this)">-</button>
+        <button class="button themeChanger" onclick="addChar(this)">-</button>
         <br class="ba">
-        <button class="button" onclick="addChar(this)">7</button>
-        <button class="button" onclick="addChar(this)">8</button>
-        <button class="button" onclick="addChar(this)">9</button>
-        <button class="button" onclick="addChar(this)">×</button>
+        <button class="button themeChanger" onclick="addChar(this)">7</button>
+        <button class="button themeChanger" onclick="addChar(this)">8</button>
+        <button class="button themeChanger" onclick="addChar(this)">9</button>
+        <button class="button themeChanger" onclick="addChar(this)">×</button>
         <br class="ba">
-        <button class="button" onclick="addChar(this)">,</button>
+        <button class="button themeChanger" onclick="addChar(this)">,</button>
         <br class="brPC">
-        <button class="button" onclick="addChar(this)">0</button>
-        <button class="button" onclick="calculate()">=</button>
-        <button class="button" onclick="addChar(this)">÷</button>
+        <button class="button themeChanger" onclick="addChar(this)">0</button>
+        <button class="button themeChanger" onclick="calculate()">=</button>
+        <button class="button themeChanger" onclick="addChar(this)">÷</button>
       </div>
-      <input readonly id="outputField" value="0"  autocomplete="off" size="10px">
+      <input readonly id="outputField" value="0"  autocomplete="off"
+      size="10px" class="themeChanger">
     </div>
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script/main.js" charset="utf-8"></script>
+    <script src="script/themechanger.js" charset="utf-8"></script>
   </body>
 </html>

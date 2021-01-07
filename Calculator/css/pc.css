@@ -4,6 +4,7 @@ body {
 
 #inputField, #outputField {
   background: #5AA3E3;
+  background: #000000;
   color: #E6E6E6;
   border-style: groove;
   font-size: 30px;
